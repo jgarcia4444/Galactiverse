@@ -76,7 +76,7 @@ class GameScene: SKScene {
     
     override func update(_ currentTime: TimeInterval) {
         // Called before each frame is rendered
-        
+        //what is happening
         //Checks if the game is being run on the simulator
         #if targetEnvironment(simulator)
             if let currentTouch = lastTouchPosition {
