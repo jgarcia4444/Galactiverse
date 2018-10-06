@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F39ABF921645D5600ABA3B5 /* starfield.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1F39ABF821645D5600ABA3B5 /* starfield.sks */; };
 		1FE49382215C477C00C532DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE49381215C477C00C532DB /* AppDelegate.swift */; };
 		1FE49384215C477C00C532DB /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1FE49383215C477C00C532DB /* GameScene.sks */; };
 		1FE49386215C477C00C532DB /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1FE49385215C477C00C532DB /* Actions.sks */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F39ABF821645D5600ABA3B5 /* starfield.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = starfield.sks; sourceTree = "<group>"; };
 		1FE4937E215C477C00C532DB /* Galactiverse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Galactiverse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FE49381215C477C00C532DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FE49383215C477C00C532DB /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 			children = (
 				1FE49381215C477C00C532DB /* AppDelegate.swift */,
 				1FE49383215C477C00C532DB /* GameScene.sks */,
+				1F39ABF821645D5600ABA3B5 /* starfield.sks */,
 				1FE49385215C477C00C532DB /* Actions.sks */,
 				1FE49387215C477C00C532DB /* GameScene.swift */,
 				1FE49389215C477C00C532DB /* GameViewController.swift */,
@@ -105,6 +108,7 @@
 				TargetAttributes = {
 					1FE4937D215C477C00C532DB = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
@@ -135,6 +139,7 @@
 				1FE49384215C477C00C532DB /* GameScene.sks in Resources */,
 				1FE4938F215C478400C532DB /* Assets.xcassets in Resources */,
 				1FE49392215C478400C532DB /* LaunchScreen.storyboard in Resources */,
+				1F39ABF921645D5600ABA3B5 /* starfield.sks in Resources */,
 				1FE49386215C477C00C532DB /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,7 +306,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.JakeGarcia.Galactiverse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -319,7 +324,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.JakeGarcia.Galactiverse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
